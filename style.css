@@ -1,7 +1,10 @@
-
 .container {
-    display: flex;
-}
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px;
+      gap: 20px;
+    }
 
 .sidebar {
     width: 200px; /* Ou uma porcentagem */
@@ -38,13 +41,4 @@
     p {
       margin: 0;
       text-align: center;
-    }
-
-
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 30px;
-      gap: 20px;
     }
